@@ -11,6 +11,7 @@ body {
     height: 100vh;
     text-decoration: none;
     font-family: Roboto;
+    background-color: #e2e2e2;
 }
 header {
     background: #252525;

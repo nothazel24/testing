@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&display=swap');
+
+* {
+    --bg: #ECEFD8;
+    --fg: #393939;
+    --c1: #849561;
+    --c2: #EED690;
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+/* Navbar */
+header {
+    background-color: var(--fg);
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a {
+    padding: 10px;
+    /* margin-top: 10px; */
+    /* text-align: center; */
+    text-decoration: none;
+}
+header nav ul li a:hover > span {
+    background-color: var(--c2);
+    color: black;
+    /* border-bottom: 5px solid var(--c1); */
+    /* transform: translateY(4px); */
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a span {
+    border: none;
+    color: var(--bg);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 13px;
+    transition: .2s;
+}
+
+/* Section 1: Title */
+.title {
+    height: 100vh;
+    background-color: var(--c1);
+}
+.title .greetings {
+    /* margin: auto; */
+    width: 50%;
+    height: 100vh;
+}
+.title .greetings h1 {
+    font-family: 'Bebas Neue';
+    width: 7.3em;
+    line-height: 1em;
+    font-size: 6.4em;
+}
