@@ -1,5 +1,5 @@
 # Project Cloning
-to clone this project type this fllowing command in your Terminal
+to clone this project type this following command in your Terminal
 ```shell
 git clone https://github.com/nothazel24/testing.git
 ```
